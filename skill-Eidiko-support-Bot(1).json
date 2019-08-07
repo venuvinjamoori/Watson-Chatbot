@@ -1,0 +1,4893 @@
+{
+  "name": "Eidiko-support-Bot",
+  "intents": [
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "How do I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "arcade"
+        },
+        {
+          "text": "abode"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "accountDetails",
+      "examples": [
+        {
+          "text": "New user"
+        },
+        {
+          "text": "savings"
+        },
+        {
+          "text": "regular"
+        },
+        {
+          "text": "I want to open an account"
+        },
+        {
+          "text": "open account"
+        },
+        {
+          "text": "i want open a savings account"
+        },
+        {
+          "text": "I need an account"
+        },
+        {
+          "text": "Can I open an account in your bank"
+        },
+        {
+          "text": "create an account"
+        },
+        {
+          "text": "Can you open an account for me"
+        },
+        {
+          "text": "individual"
+        },
+        {
+          "text": "existingUser"
+        },
+        {
+          "text": "how can i join in your bank"
+        }
+      ],
+      "description": "For opening accounts"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Introduce your self",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Let us talk about you",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                12,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me about your life",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where were you born?",
+          "mentions": [
+            {
+              "entity": "dob",
+              "location": [
+                6,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How old are you?",
+          "mentions": [
+            {
+              "entity": "age",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you know who you are?",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                16,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About you",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me something about yourself",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                24,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who are you?",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "i need validate my tan number"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        }
+      ],
+      "description": "Request a joke."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "IsSingle",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "single",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "joint",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "hi",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dob",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "were ",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "age",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "old ",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "about",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "are ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yourself",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "about ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "your ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "you ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Describe ",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "IsaccountExist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "existingUser",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "newUser",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "acou",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "catagory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "individual",
+          "synonyms": [
+            "single"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non-individual",
+          "synonyms": [
+            "group"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "aadhar",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "aadhar",
+          "patterns": [
+            "\\d{12}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Minorcheck",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "junior",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "partnership",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "association",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "regular",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "club",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "accountType",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "savings",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "else",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "company",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "current",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thanking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope",
+            "not necessary"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mobile",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "mobile",
+          "patterns": [
+            "\\d{10}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "acountnumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "acountnumber",
+          "patterns": [
+            "\\d{11}"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "aadharnumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "phone",
+          "patterns": [
+            "\\d{11}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "adharnumber",
+          "patterns": [
+            "\\d{13}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "acount",
+          "patterns": [
+            "\\d{12}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "eidiko bot for opening all types of accounts",
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_31_1561458764710",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile",
+      "dialog_node": "slot_60_1561462857454",
+      "previous_sibling": "slot_57_1561462833865"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_31_1561458764710",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhar",
+      "dialog_node": "slot_63_1561462896376",
+      "previous_sibling": "slot_60_1561462857454"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_31_1561458764710",
+      "metadata": {},
+      "variable": "$username",
+      "dialog_node": "slot_57_1561462833865",
+      "previous_sibling": "node_66_1561467730534"
+    },
+    {
+      "type": "standard",
+      "title": "response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_31_1561458764710",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_66_1561467730534"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your parent name"
+      },
+      "parent": "slot_9_1561728643058",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1561728643058",
+      "previous_sibling": "handler_10_1561728643058"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1561728643058",
+      "context": {
+        "parentname": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_10_1561728643058"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_113_1561528820707",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile",
+      "dialog_node": "slot_118_1561528820707",
+      "previous_sibling": "slot_115_1561528820707"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_113_1561528820707",
+      "metadata": {},
+      "variable": "$username",
+      "dialog_node": "slot_115_1561528820707",
+      "previous_sibling": "node_114_1561528820707"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_113_1561528820707",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhar",
+      "dialog_node": "slot_121_1561528820707",
+      "previous_sibling": "slot_118_1561528820707"
+    },
+    {
+      "type": "standard",
+      "title": "response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have created  a savings account with the Account \nNumber $result.message. </br> documents will be dispatched to your home.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_113_1561528820707",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_114_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_57_1561462833865",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_59_1561462833865",
+      "previous_sibling": "handler_58_1561462833865"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_57_1561462833865",
+      "context": {
+        "username": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_58_1561462833865"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_106_1561528820706",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{12}')",
+      "event_name": "filled",
+      "dialog_node": "handler_15_1562751970152",
+      "previous_sibling": "handler_108_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_106_1561528820706",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_16_1562751970152",
+      "previous_sibling": "handler_15_1562751970152"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_106_1561528820706",
+      "context": {
+        "acc_number": "@acountnumber"
+      },
+      "metadata": {},
+      "conditions": "@acountnumber",
+      "event_name": "input",
+      "dialog_node": "handler_108_1561528820706",
+      "previous_sibling": "handler_107_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please provide your Account number"
+      },
+      "parent": "slot_106_1561528820706",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_107_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter company tan number"
+      },
+      "parent": "slot_25_1561729427498",
+      "event_name": "focus",
+      "dialog_node": "handler_27_1561729427498",
+      "previous_sibling": "handler_26_1561729427498"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_25_1561729427498",
+      "context": {
+        "tannumber": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_26_1561729427498"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_121_1561528820707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_24_1562753175087",
+      "previous_sibling": "handler_23_1562753175086"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_121_1561528820707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_23_1562753175086",
+      "previous_sibling": "handler_122_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_121_1561528820707",
+      "context": {
+        "aadhar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_122_1561528820707",
+      "previous_sibling": "handler_123_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your Aadhar number"
+      },
+      "parent": "slot_121_1561528820707",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_123_1561528820707"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1561727513314",
+      "metadata": {},
+      "variable": "$tannumber",
+      "dialog_node": "slot_38_1561729939272",
+      "previous_sibling": "slot_35_1561729935929"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1561727513314",
+      "metadata": {},
+      "variable": "$ownername",
+      "dialog_node": "slot_35_1561729935929",
+      "previous_sibling": "slot_32_1561729915223"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1561727513314",
+      "metadata": {},
+      "variable": "$clubname",
+      "dialog_node": "slot_32_1561729915223",
+      "previous_sibling": "node_1_1561957900520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1561727513314",
+      "metadata": {},
+      "variable": "$cityname",
+      "dialog_node": "slot_41_1561730009534",
+      "previous_sibling": "slot_38_1561729939272"
+    },
+    {
+      "type": "standard",
+      "title": "response for club",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1561727513314",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1561957900520"
+    },
+    {
+      "type": "standard",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_124_1561528820707",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_127_1561528820707",
+      "previous_sibling": "node_125_1561528820707"
+    },
+    {
+      "type": "standard",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_124_1561528820707",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_125_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter association name"
+      },
+      "parent": "slot_6_1561958173701",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1561958173701",
+      "previous_sibling": "handler_7_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1561958173701",
+      "context": {
+        "associationname": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_7_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_77_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{12}')",
+      "event_name": "filled",
+      "dialog_node": "handler_25_1562753825517",
+      "previous_sibling": "handler_79_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_77_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_26_1562753825517",
+      "previous_sibling": "handler_25_1562753825517"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_77_1561528729271",
+      "context": {
+        "acc_number": "@acountnumber"
+      },
+      "metadata": {},
+      "conditions": "@acountnumber",
+      "event_name": "input",
+      "dialog_node": "handler_79_1561528729271",
+      "previous_sibling": "handler_78_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please provide your Account number"
+      },
+      "parent": "slot_77_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_78_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_115_1561528820707",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_117_1561528820707",
+      "previous_sibling": "handler_116_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_115_1561528820707",
+      "context": {
+        "username": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_116_1561528820707"
+    },
+    {
+      "type": "frame",
+      "title": "for Junior",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1561456022075",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Minorcheck:junior",
+      "dialog_node": "node_24_1561456544512",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_23_1561456402494",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "for Regular",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose from below options",
+            "options": [
+              {
+                "label": "Single",
+                "value": {
+                  "input": {
+                    "text": "single"
+                  }
+                }
+              },
+              {
+                "label": "Joint",
+                "value": {
+                  "input": {
+                    "text": "joint"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1561456022075",
+      "metadata": {},
+      "conditions": "@Minorcheck:regular",
+      "dialog_node": "node_23_1561456402494"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter associationtan number"
+      },
+      "parent": "slot_12_1561958173701",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1561958173701",
+      "previous_sibling": "handler_13_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1561958173701",
+      "context": {
+        "tannumber": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_13_1561958173701"
+    },
+    {
+      "type": "standard",
+      "title": "for Junior",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1561528729267",
+      "metadata": {},
+      "conditions": "@Minorcheck:junior",
+      "dialog_node": "node_100_1561528729271",
+      "previous_sibling": "node_73_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "for Regular",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose from below options",
+            "options": [
+              {
+                "label": "Single",
+                "value": {
+                  "input": {
+                    "text": "single"
+                  }
+                }
+              },
+              {
+                "label": "Joint",
+                "value": {
+                  "input": {
+                    "text": "joint"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_72_1561528729267",
+      "metadata": {},
+      "conditions": "@Minorcheck:regular",
+      "dialog_node": "node_73_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter club owner name"
+      },
+      "parent": "slot_35_1561729935929",
+      "event_name": "focus",
+      "dialog_node": "handler_37_1561729935929",
+      "previous_sibling": "handler_36_1561729935929"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_35_1561729935929",
+      "context": {
+        "ownername": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_36_1561729935929"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_35_1561459582985",
+      "context": {
+        "acc_number": "@acountnumber"
+      },
+      "metadata": {},
+      "conditions": "@acountnumber",
+      "event_name": "input",
+      "dialog_node": "handler_36_1561459582985",
+      "previous_sibling": "handler_37_1561459582985"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_35_1561459582985",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{12}')",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1562749575163",
+      "previous_sibling": "handler_36_1561459582985"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard account number should be 11 digit."
+          ]
+        }
+      },
+      "parent": "slot_35_1561459582985",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_34_1562763094699",
+      "previous_sibling": "handler_1_1562749575163"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please provide your account number"
+      },
+      "parent": "slot_35_1561459582985",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_37_1561459582985"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_38_1561459616540",
+      "context": {
+        "aadhaar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_39_1561459616540",
+      "previous_sibling": "handler_40_1561459616540"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_38_1561459616540",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1562749704525",
+      "previous_sibling": "handler_3_1562749704525"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_38_1561459616540",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1562749704525",
+      "previous_sibling": "handler_39_1561459616540"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please confirm your Aadhar number"
+      },
+      "parent": "slot_38_1561459616540",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_40_1561459616540"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1561456544512",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile",
+      "dialog_node": "slot_12_1561728645530",
+      "previous_sibling": "slot_9_1561728643058"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1561456544512",
+      "metadata": {},
+      "variable": "$username",
+      "dialog_node": "slot_6_1561728334182",
+      "previous_sibling": "node_18_1561728905615"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1561456544512",
+      "metadata": {},
+      "variable": "$parentname",
+      "dialog_node": "slot_9_1561728643058",
+      "previous_sibling": "slot_6_1561728334182"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1561456544512",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhar",
+      "dialog_node": "slot_15_1561728647736",
+      "previous_sibling": "slot_12_1561728645530"
+    },
+    {
+      "type": "standard",
+      "title": "response for junior",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1561456544512",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_18_1561728905615"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter partnername"
+      },
+      "parent": "slot_20_1561958177815",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_22_1561958177815",
+      "previous_sibling": "handler_21_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1561958177815",
+      "context": {
+        "partnername": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_21_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter city name"
+      },
+      "parent": "slot_41_1561730009534",
+      "event_name": "focus",
+      "dialog_node": "handler_43_1561730009534",
+      "previous_sibling": "handler_42_1561730009534"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_41_1561730009534",
+      "context": {
+        "cityname": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_42_1561730009534"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_118_1561528820707",
+      "context": {
+        "mobile": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_119_1561528820707",
+      "previous_sibling": "handler_120_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_118_1561528820707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_21_1562753082667",
+      "previous_sibling": "handler_119_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_118_1561528820707",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_22_1562753082667",
+      "previous_sibling": "handler_21_1562753082667"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your Mobile number"
+      },
+      "parent": "slot_118_1561528820707",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_120_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_26_1561958177815",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_34_1561960728694",
+      "previous_sibling": "handler_27_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1561958177815",
+      "context": {
+        "mobile": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_27_1561958177815",
+      "previous_sibling": "handler_28_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_26_1561958177815",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_57_1561977671977",
+      "previous_sibling": "handler_34_1561960728694"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter partner mobile number"
+      },
+      "parent": "slot_26_1561958177815",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_28_1561958177815"
+    },
+    {
+      "type": "frame",
+      "title": "for association",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561727054391",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Minorcheck:association",
+      "dialog_node": "node_4_1561958173700",
+      "previous_sibling": "node_3_1561727513314"
+    },
+    {
+      "type": "frame",
+      "title": "for partnership",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561727054391",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Minorcheck:partnership",
+      "dialog_node": "node_18_1561958177813",
+      "previous_sibling": "node_4_1561958173700"
+    },
+    {
+      "type": "frame",
+      "title": "for club",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1561727054391",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Minorcheck:club",
+      "dialog_node": "node_3_1561727513314",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1561457418393",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_33_1561458901537",
+      "previous_sibling": "node_32_1561458877363"
+    },
+    {
+      "type": "standard",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1561457418393",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_32_1561458877363"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1561727049982",
+      "metadata": {},
+      "variable": "$city",
+      "dialog_node": "slot_28_1561729434762",
+      "previous_sibling": "slot_25_1561729427498"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1561727049982",
+      "metadata": {},
+      "variable": "$companyname",
+      "dialog_node": "slot_19_1561729368402",
+      "previous_sibling": "node_31_1561729655154"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1561727049982",
+      "metadata": {},
+      "variable": "$ownername",
+      "dialog_node": "slot_22_1561729381102",
+      "previous_sibling": "slot_19_1561729368402"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1561727049982",
+      "metadata": {},
+      "variable": "$tannumber",
+      "dialog_node": "slot_25_1561729427498",
+      "previous_sibling": "slot_22_1561729381102"
+    },
+    {
+      "type": "standard",
+      "title": "response for company",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1561727049982",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_31_1561729655154"
+    },
+    {
+      "type": "standard",
+      "title": "For joint",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1561456402494",
+      "metadata": {},
+      "conditions": "@IsSingle:joint",
+      "dialog_node": "node_29_1561457418393",
+      "previous_sibling": "node_28_1561456967755"
+    },
+    {
+      "type": "standard",
+      "title": "For Single",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_23_1561456402494",
+      "metadata": {},
+      "conditions": "@IsSingle:single",
+      "dialog_node": "node_28_1561456967755"
+    },
+    {
+      "type": "standard",
+      "title": "Response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result for the customer name $username,mobile number $mobile and\naadhar number $aadhar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1561458901537",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_71_1561528048337"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_84_1561528729271",
+      "metadata": {},
+      "variable": "$username",
+      "dialog_node": "slot_86_1561528729271",
+      "previous_sibling": "node_85_1561528729271"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_84_1561528729271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhar",
+      "dialog_node": "slot_92_1561528729271",
+      "previous_sibling": "slot_89_1561528729271"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_84_1561528729271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile",
+      "dialog_node": "slot_89_1561528729271",
+      "previous_sibling": "slot_86_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We "
+              },
+              {
+                "text": "We have created a savings account with the Account \nNumber $result for the customer name $username,mobile number $mobile and\naadhar number $aadhar. </br> documents will be sent soon.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_84_1561528729271",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_85_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result.message."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1561458877363",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_70_1561527988257"
+    },
+    {
+      "type": "standard",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_95_1561528729271",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_98_1561528729271",
+      "previous_sibling": "node_96_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_95_1561528729271",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_96_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_109_1561528820706",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_17_1562752047993",
+      "previous_sibling": "handler_110_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_109_1561528820706",
+      "context": {
+        "aadhaar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_110_1561528820706",
+      "previous_sibling": "handler_111_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_109_1561528820706",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_18_1562752047993",
+      "previous_sibling": "handler_17_1562752047993"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please confirm your Aadhar number"
+      },
+      "parent": "slot_109_1561528820706",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_111_1561528820707"
+    },
+    {
+      "type": "frame",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1561456967755",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_31_1561458764710",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_30_1561458718170",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1561456967755",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_30_1561458718170",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter club name"
+      },
+      "parent": "slot_32_1561729915223",
+      "event_name": "focus",
+      "dialog_node": "handler_34_1561729915223",
+      "previous_sibling": "handler_33_1561729915223"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_32_1561729915223",
+      "context": {
+        "clubname": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_33_1561729915223"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_30_1561458718170",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhaar",
+      "dialog_node": "slot_38_1561459616540",
+      "previous_sibling": "slot_35_1561459582985"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_30_1561458718170",
+      "event_name": "focus",
+      "dialog_node": "handler_34_1561459582952",
+      "previous_sibling": "slot_38_1561459616540"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_30_1561458718170",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$acc_number",
+      "dialog_node": "slot_35_1561459582985",
+      "previous_sibling": "node_67_1561468674510"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1561458718170",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_67_1561468674510"
+    },
+    {
+      "type": "standard",
+      "title": "Response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result for the customer name $username,mobile number $mobile and\naadhar number $aadhar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_127_1561528820707",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_128_1561528820707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter owner name"
+      },
+      "parent": "slot_23_1561958177815",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_25_1561958177815",
+      "previous_sibling": "handler_24_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1561958177815",
+      "context": {
+        "ownername": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_24_1561958177815"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_104_1561528820706",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhaar",
+      "dialog_node": "slot_109_1561528820706",
+      "previous_sibling": "slot_106_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_104_1561528820706",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_112_1561528820707",
+      "previous_sibling": "slot_109_1561528820706"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_104_1561528820706",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$acc_number",
+      "dialog_node": "slot_106_1561528820706",
+      "previous_sibling": "node_105_1561528820706"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have created a savings account with the Account \nNumber $result.message. </br> documents will be dispatched soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_104_1561528820706",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_105_1561528820706"
+    },
+    {
+      "type": "standard",
+      "title": "for else",
+      "output": {
+        "generic": [
+          {
+            "title": "Please choose below options",
+            "options": [
+              {
+                "label": "Club",
+                "value": {
+                  "input": {
+                    "text": "club"
+                  }
+                }
+              },
+              {
+                "label": "Association",
+                "value": {
+                  "input": {
+                    "text": "association"
+                  }
+                }
+              },
+              {
+                "label": "Parrtnership",
+                "value": {
+                  "input": {
+                    "text": "parrtnership"
+                  }
+                }
+              }
+            ],
+            "description": "Options",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_17_1561455440408",
+      "metadata": {},
+      "conditions": "@accountType:else",
+      "dialog_node": "node_2_1561727054391",
+      "previous_sibling": "node_1_1561727049982"
+    },
+    {
+      "type": "frame",
+      "title": "for company",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1561455440408",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@accountType:company",
+      "dialog_node": "node_1_1561727049982",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "for current account",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose from below options",
+            "options": [
+              {
+                "label": "Single",
+                "value": {
+                  "input": {
+                    "text": "single"
+                  }
+                }
+              },
+              {
+                "label": "Joint",
+                "value": {
+                  "input": {
+                    "text": "joint"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1561455259137",
+      "metadata": {},
+      "conditions": "@accountType:current",
+      "dialog_node": "node_101_1561528820704",
+      "previous_sibling": "node_20_1561456022075"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_16_1561455259137",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_19_1561455757794",
+      "previous_sibling": "node_72_1561528729267"
+    },
+    {
+      "type": "standard",
+      "title": "for FD",
+      "output": {
+        "generic": [
+          {
+            "title": "Which type of account",
+            "options": [
+              {
+                "label": "Regular",
+                "value": {
+                  "input": {
+                    "text": "regular"
+                  }
+                }
+              },
+              {
+                "label": "Junior",
+                "value": {
+                  "input": {
+                    "text": "junior"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1561455259137",
+      "metadata": {},
+      "conditions": "@accountType:fd",
+      "dialog_node": "node_72_1561528729267",
+      "previous_sibling": "node_101_1561528820704"
+    },
+    {
+      "type": "standard",
+      "title": "for savings",
+      "output": {
+        "generic": [
+          {
+            "title": "Which type of account",
+            "options": [
+              {
+                "label": "Regular",
+                "value": {
+                  "input": {
+                    "text": "regular"
+                  }
+                }
+              },
+              {
+                "label": "Junior",
+                "value": {
+                  "input": {
+                    "text": "junior"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1561455259137",
+      "metadata": {},
+      "conditions": "@accountType:savings",
+      "dialog_node": "node_20_1561456022075"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a good day."
+              },
+              {
+                "text": "See you later"
+              },
+              {
+                "text": "Alright then!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1561469546929",
+      "metadata": {},
+      "conditions": "@thanking:no",
+      "dialog_node": "node_1_1561530262792"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_63_1561462896376",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1562750431051",
+      "previous_sibling": "handler_64_1561462896376"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_63_1561462896376",
+      "context": {
+        "aadhar": "@aadharnumber"
+      },
+      "metadata": {},
+      "conditions": "@aadharnumber",
+      "event_name": "input",
+      "dialog_node": "handler_64_1561462896376",
+      "previous_sibling": "handler_65_1561462896376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_63_1561462896376",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1562750431052",
+      "previous_sibling": "handler_9_1562750431051"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please Enter your aadhar Number"
+      },
+      "parent": "slot_63_1561462896376",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_65_1561462896376"
+    },
+    {
+      "type": "standard",
+      "title": "For joint",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_73_1561528729271",
+      "metadata": {},
+      "conditions": "@IsSingle:joint",
+      "dialog_node": "node_95_1561528729271",
+      "previous_sibling": "node_74_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "For Single",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_73_1561528729271",
+      "metadata": {},
+      "conditions": "@IsSingle:single",
+      "dialog_node": "node_74_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1561728647736",
+      "context": {
+        "aadhar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_16_1561728647736",
+      "previous_sibling": "handler_17_1561728647736"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_15_1561728647736",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_14_1562751476573",
+      "previous_sibling": "handler_13_1562751476573"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_15_1561728647736",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_13_1562751476573",
+      "previous_sibling": "handler_16_1561728647736"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your Aadhar number"
+      },
+      "parent": "slot_15_1561728647736",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1561728647736"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_18_1561958177813",
+      "metadata": {},
+      "variable": "$ownername",
+      "dialog_node": "slot_23_1561958177815",
+      "previous_sibling": "slot_20_1561958177815"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_18_1561958177813",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhar",
+      "dialog_node": "slot_29_1561958177815",
+      "previous_sibling": "slot_26_1561958177815"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_18_1561958177813",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile",
+      "dialog_node": "slot_26_1561958177815",
+      "previous_sibling": "slot_23_1561958177815"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_18_1561958177813",
+      "metadata": {},
+      "variable": "$partnername",
+      "dialog_node": "slot_20_1561958177815",
+      "previous_sibling": "node_19_1561958177815"
+    },
+    {
+      "type": "standard",
+      "title": "response for club",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1561958177813",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_19_1561958177815"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result.message."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_96_1561528729271",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_97_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter city name"
+      },
+      "parent": "slot_28_1561729434762",
+      "event_name": "focus",
+      "dialog_node": "handler_30_1561729434762",
+      "previous_sibling": "handler_29_1561729434762"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1561729434762",
+      "context": {
+        "city": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_29_1561729434762"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter company name"
+      },
+      "parent": "slot_19_1561729368402",
+      "event_name": "focus",
+      "dialog_node": "handler_21_1561729368402",
+      "previous_sibling": "handler_20_1561729368402"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_19_1561729368402",
+      "context": {
+        "companyname": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_20_1561729368402"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1561958173700",
+      "metadata": {},
+      "variable": "$ownername",
+      "dialog_node": "slot_9_1561958173701",
+      "previous_sibling": "slot_6_1561958173701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1561958173700",
+      "metadata": {},
+      "variable": "$cityname",
+      "dialog_node": "slot_15_1561958173701",
+      "previous_sibling": "slot_12_1561958173701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1561958173700",
+      "metadata": {},
+      "variable": "$associationname",
+      "dialog_node": "slot_6_1561958173701",
+      "previous_sibling": "node_5_1561958173701"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1561958173700",
+      "metadata": {},
+      "variable": "$tannumber",
+      "dialog_node": "slot_12_1561958173701",
+      "previous_sibling": "slot_9_1561958173701"
+    },
+    {
+      "type": "standard",
+      "title": "response for club",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your account has been created with the Account number $result.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1561958173700",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_80_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_27_1562753905006",
+      "previous_sibling": "handler_81_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_80_1561528729271",
+      "context": {
+        "aadhaar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_81_1561528729271",
+      "previous_sibling": "handler_82_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_80_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_28_1562753905006",
+      "previous_sibling": "handler_27_1562753905006"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please confirm your Aadhar number"
+      },
+      "parent": "slot_80_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_82_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_92_1561528729271",
+      "context": {
+        "aadhar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_93_1561528729271",
+      "previous_sibling": "handler_94_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_92_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_31_1562754375965",
+      "previous_sibling": "handler_93_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_92_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_32_1562754375965",
+      "previous_sibling": "handler_31_1562754375965"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your Aadhar number"
+      },
+      "parent": "slot_92_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_94_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter club tan number"
+      },
+      "parent": "slot_38_1561729939272",
+      "event_name": "focus",
+      "dialog_node": "handler_40_1561729939272",
+      "previous_sibling": "handler_39_1561729939272"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_38_1561729939272",
+      "context": {
+        "tannumber": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_39_1561729939272"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter owner name"
+      },
+      "parent": "slot_22_1561729381102",
+      "event_name": "focus",
+      "dialog_node": "handler_24_1561729381102",
+      "previous_sibling": "handler_23_1561729381102"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_22_1561729381102",
+      "context": {
+        "ownername": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_23_1561729381102"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_60_1561462857454",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1562750322368",
+      "previous_sibling": "handler_61_1561462857454"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_60_1561462857454",
+      "context": {
+        "mobile": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_61_1561462857454",
+      "previous_sibling": "handler_62_1561462857454"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_60_1561462857454",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1562750322368",
+      "previous_sibling": "handler_5_1562750322368"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_60_1561462857454",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_62_1561462857454"
+    },
+    {
+      "type": "standard",
+      "title": "for non-individual",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select from below options",
+            "options": [
+              {
+                "label": "Company Account",
+                "value": {
+                  "input": {
+                    "text": "company"
+                  }
+                }
+              },
+              {
+                "label": "Else Account",
+                "value": {
+                  "input": {
+                    "text": "else"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1561455015624",
+      "metadata": {},
+      "conditions": "@catagory:non-individual",
+      "dialog_node": "node_17_1561455440408",
+      "previous_sibling": "node_16_1561455259137"
+    },
+    {
+      "type": "standard",
+      "title": "for individual",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose the type of account from below options",
+            "options": [
+              {
+                "label": "Savings",
+                "value": {
+                  "input": {
+                    "text": "savings"
+                  }
+                }
+              },
+              {
+                "label": "Current",
+                "value": {
+                  "input": {
+                    "text": "current"
+                  }
+                }
+              },
+              {
+                "label": "FD Account",
+                "value": {
+                  "input": {
+                    "text": "fd"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1561455015624",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@catagory:individual",
+      "dialog_node": "node_16_1561455259137",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_103_1561528820706",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_113_1561528820707",
+      "previous_sibling": "node_104_1561528820706"
+    },
+    {
+      "type": "frame",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_103_1561528820706",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_104_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_89_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_29_1562754318920",
+      "previous_sibling": "handler_90_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_89_1561528729271",
+      "context": {
+        "mobile": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_90_1561528729271",
+      "previous_sibling": "handler_91_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_89_1561528729271",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_30_1562754318920",
+      "previous_sibling": "handler_29_1562754318920"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_89_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_91_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter cityname"
+      },
+      "parent": "slot_15_1561958173701",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1561958173701",
+      "previous_sibling": "handler_16_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1561958173701",
+      "context": {
+        "cityname": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_16_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_6_1561728334182",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1561728334183",
+      "previous_sibling": "handler_7_1561728334183"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1561728334182",
+      "context": {
+        "username": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_7_1561728334183"
+    },
+    {
+      "type": "frame",
+      "title": "If new User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_74_1561528729271",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "mobile": "$mobile",
+            "person": "$person",
+            "aadhaar": "$aadhaar"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:newUser",
+      "dialog_node": "node_84_1561528729271",
+      "previous_sibling": "node_75_1561528729271"
+    },
+    {
+      "type": "frame",
+      "title": "If existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait.... we are processing your request!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_74_1561528729271",
+      "actions": [
+        {
+          "name": "eee.rakeshsharma@gmail.com_dev/actions/save_account_details",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "9f010f00-3f11-4281-98e5-4830b2e8cbc9",
+            "password": "QhLLhWDg7rI1qLQtT0DTeozlH1GMOpaUJNSn8RiRsmpARXmILEO91zw4i1FoJnFO"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@IsaccountExist:existingUser",
+      "dialog_node": "node_75_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_86_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_88_1561528729271",
+      "previous_sibling": "handler_87_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_86_1561528729271",
+      "context": {
+        "username": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_87_1561528729271"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_75_1561528729271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$acc_number",
+      "dialog_node": "slot_77_1561528729271",
+      "previous_sibling": "node_76_1561528729271"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_75_1561528729271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$aadhaar",
+      "dialog_node": "slot_80_1561528729271",
+      "previous_sibling": "slot_77_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_75_1561528729271",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_83_1561528729271",
+      "previous_sibling": "slot_80_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have created  a savings account with the Account \nNumber $result.message. </br> documents will be dispatched to your home address."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1561528729271",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_76_1561528729271"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_29_1561958177815",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{13}')",
+      "event_name": "filled",
+      "dialog_node": "handler_53_1561961813669",
+      "previous_sibling": "handler_30_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard aadhar number should be 12 digit."
+          ]
+        }
+      },
+      "parent": "slot_29_1561958177815",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_56_1561962007414",
+      "previous_sibling": "handler_53_1561961813669"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_29_1561958177815",
+      "context": {
+        "aadhar": "@aadhar"
+      },
+      "metadata": {},
+      "conditions": "@aadhar",
+      "event_name": "input",
+      "dialog_node": "handler_30_1561958177815",
+      "previous_sibling": "handler_31_1561958177815"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter aadhar number"
+      },
+      "parent": "slot_29_1561958177815",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_31_1561958177815"
+    },
+    {
+      "type": "standard",
+      "title": "Response for existing user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result.message."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_125_1561528820707",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_126_1561528820707"
+    },
+    {
+      "type": "standard",
+      "title": "Response for new user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are creating a savings account with the Account \nNumber $result for the customer name $username,mobile number $mobile and\naadhar number $aadhar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_98_1561528729271",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_99_1561528729271"
+    },
+    {
+      "type": "standard",
+      "title": "For joint",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_101_1561528820704",
+      "metadata": {},
+      "conditions": "@IsSingle:joint",
+      "dialog_node": "node_124_1561528820707",
+      "previous_sibling": "node_103_1561528820706"
+    },
+    {
+      "type": "standard",
+      "title": "For Single",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you an existing customer? Choose below",
+            "options": [
+              {
+                "label": "Existing User",
+                "value": {
+                  "input": {
+                    "text": "existingUser"
+                  }
+                }
+              },
+              {
+                "label": "New User",
+                "value": {
+                  "input": {
+                    "text": "newUser"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_101_1561528820704",
+      "metadata": {},
+      "conditions": "@IsSingle:single",
+      "dialog_node": "node_103_1561528820706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter associationowner name"
+      },
+      "parent": "slot_9_1561958173701",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1561958173701",
+      "previous_sibling": "handler_10_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1561958173701",
+      "context": {
+        "ownername": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_10_1561958173701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_12_1561728645530",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_11_1562751357281",
+      "previous_sibling": "handler_13_1561728645530"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The standard mobile number should be 10 digit."
+          ]
+        }
+      },
+      "parent": "slot_12_1561728645530",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_12_1562751357282",
+      "previous_sibling": "handler_11_1562751357281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1561728645530",
+      "context": {
+        "mobile": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_13_1561728645530",
+      "previous_sibling": "handler_14_1561728645530"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_12_1561728645530",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1561728645530"
+    },
+    {
+      "type": "standard",
+      "title": "Opening an account",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select below options",
+            "options": [
+              {
+                "label": "Individual Account",
+                "value": {
+                  "input": {
+                    "text": "individual"
+                  }
+                }
+              },
+              {
+                "label": "Non Individual Account",
+                "value": {
+                  "input": {
+                    "text": "non-individual"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#accountDetails",
+      "dialog_node": "node_15_1561455015624",
+      "previous_sibling": "node_14_1561455003992"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_68_1561469546929"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's my pleasure. Is there any thing that I can help you out?"
+              },
+              {
+                "text": "Your Welcome. Is there any thing that I can help you out?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_68_1561469546929",
+      "previous_sibling": "node_15_1561455015624"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi,  I can assist you in opening an account in Eidiko bank. Please enter your query here."
+              },
+              {
+                "text": "Hey"
+              },
+              {
+                "text": "Hello"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_14_1561455003992",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, this is  <strong>Srujana</strong>  banking assistant.</br>How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "1627982f-3838-43a6-a22b-cbf8ffc1dc1a",
+  "counterexamples": [
+    {
+      "text": "existing user"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
